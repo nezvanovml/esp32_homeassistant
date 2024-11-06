@@ -1,0 +1,20 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device with same ID already configured"
+        },
+        "error": {
+            "cannot_connect": "Unable to connect. Check provided ID/token.",
+            "invalid_data": "Incorrect ID/token",
+            "unknown": "Unknown error"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "id": "Device ID",
+                    "token": "Device token"
+                }
+            }
+        }
+   }
+}
