@@ -14,7 +14,7 @@ from homeassistant.helpers.device_registry import DeviceInfo
 import datetime as dt
 
 _LOGGER = logging.getLogger(__name__)
-PLATFORMS = [Platform.BINARY_SENSOR, Platform.BUTTON, Platform.NUMBER]
+PLATFORMS = [Platform.BINARY_SENSOR, Platform.BUTTON, Platform.NUMBER, Platform.SWITCH]
 
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
