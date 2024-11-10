@@ -4,5 +4,5 @@
 # name for the integration.
 DOMAIN = "esp32_homeassistant"
 MANUFACTURER = "Alexander Nezvanov"
-SERVER_URL = "https://sh-relay.neztech.ru"
+SERVER_URL = "https://relay.smarthome-tech.ru"
 
