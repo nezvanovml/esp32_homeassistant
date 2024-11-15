@@ -58,7 +58,7 @@ class ESPDeviceDataUpdateCoordinator(
         self.device_name = f"ESP32_{unique_id}"
         self.time_start = None
 
-        update_interval = timedelta(seconds=5)
+        update_interval = timedelta(seconds=2)
 
         super().__init__(hass, _LOGGER, name=DOMAIN, update_interval=update_interval)
 
