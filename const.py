@@ -2,7 +2,7 @@
 
 # This is the internal name of the integration, it should also match the directory
 # name for the integration.
-DOMAIN = "esp32_homeassistant"
+DOMAIN = "relay_homeassistant"
 MANUFACTURER = "Alexander Nezvanov"
 SERVER_URL = "https://relay.smarthome-tech.ru"
 
